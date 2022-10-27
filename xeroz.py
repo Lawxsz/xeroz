@@ -38,7 +38,7 @@ helpm = f"""
 
 """
 #Nuke!
-
+print(help)
 @bot.command()
 async def help(ctx):
     embed = discord.Embed(title="Help Menu!")
